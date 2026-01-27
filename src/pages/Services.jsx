@@ -2,9 +2,12 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <div>
-            <h1>Servicesm Page</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eum corporis, ipsa vel qui odio earum iure, libero aliquam nihil nobis temporibus necessitatibus? Similique ipsum eligendi temporibus perferendis dicta mollitia perspiciatis laboriosam quo iste ipsam. Possimus a ex quas inventore error ipsa porro enim! Laborum officia explicabo recusandae nesciunt voluptatibus aliquid ducimus reprehenderit harum beatae necessitatibus corrupti vel repellat, a odit corporis. <br /> Quaerat, culpa expedita! Corrupti illo esse atque ad reprehenderit quaerat nobis temporibus eveniet provident! Commodi neque assumenda similique ullam cum quasi nisi enim atque id officiis alias facilis veritatis reiciendis molestiae aut non perferendis, sit quisquam odit iste est itaque sequi repellendus fuga. Aperiam eaque unde, provident odit, quae et optio ea quaerat consectetur expedita ex! Laudantium, <br /> nostrum. Iure adipisci itaque corrupti dolorem beatae at, officia fugit ipsum similique laudantium repellendus dolore unde quia reiciendis porro quod voluptates aliquid ut a eligendi. Quibusdam adipisci maxime deleniti illo non.</p>
+        <div className=' relative'>
+            <img src="https://i.ibb.co/Qv8L193f/Hero.png" alt="" />
+             <div>
+            <h1>Product page</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum quisquam tenetur amet deleniti optio sint earum porro consequuntur ipsum dignissimos unde alias, dolore quaerat recusandae quis. <br /> Distinctio perferendis totam mollitia itaque, laboriosam possimus vel nam nisi expedita ab voluptatem laborum, exercitationem odio iusto architecto ad corrupti sunt non. Quasi nulla ullam esse dolore nostrum similique, at doloribus facere repellat aspernatur quidem culpa minus voluptates vel ea, temporibus assumenda error? Fugit maiores enim magni ut minus deleniti sed, deserunt, iure voluptatem reprehenderit recusandae. <br /> Excepturi ex amet doloribus nihil animi ad nesciunt architecto ducimus neque deserunt laudantium omnis, rerum, adipisci consectetur. Sed.</p>
+        </div>
         </div>
     );
 };

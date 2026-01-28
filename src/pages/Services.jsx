@@ -1,15 +1,51 @@
-import React from 'react';
+import React from "react";
+import Explorebtn from "../Component/Explorebtn";
 
 const Services = () => {
-    return (
-        <div className=' relative'>
-            <img src="https://i.ibb.co/Qv8L193f/Hero.png" alt="" />
-             <div>
-            <h1>Product page</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum quisquam tenetur amet deleniti optio sint earum porro consequuntur ipsum dignissimos unde alias, dolore quaerat recusandae quis. <br /> Distinctio perferendis totam mollitia itaque, laboriosam possimus vel nam nisi expedita ab voluptatem laborum, exercitationem odio iusto architecto ad corrupti sunt non. Quasi nulla ullam esse dolore nostrum similique, at doloribus facere repellat aspernatur quidem culpa minus voluptates vel ea, temporibus assumenda error? Fugit maiores enim magni ut minus deleniti sed, deserunt, iure voluptatem reprehenderit recusandae. <br /> Excepturi ex amet doloribus nihil animi ad nesciunt architecto ducimus neque deserunt laudantium omnis, rerum, adipisci consectetur. Sed.</p>
+  return (
+    <div className="max-w-6xl mx-auto mt-[84px]">
+      {/* title part........................... */}
+      <div className=" text-center">
+        <h3 className=" text-lg mt-[12px] text-gray-700">Our services</h3>
+        <h1 className="text-5xl leading-tight mb-[76px]">
+          Handshake infographic mass market <br />
+          crowdfunding iteration.
+        </h1>
+      </div>
+      {/*img part.....................*/}
+      <div className="flex justify-between items-start gap-[100px]">
+        <div className="">
+          <img src="https://i.ibb.co/TBwrLTmV/Rectangle-1270.png"
+           alt="" 
+           className="mr-auto"
+           />
+           <h2 className="text-2xl pt-[24px] pb-[12px]">Cool feature title</h2>
+           <p className="text-xl mb-[28px] text-gray-700">Learning curve network effects return on investment.</p>
+            <Explorebtn/>
         </div>
+
+        <div className="">
+            <img src="https://i.ibb.co/gLgk2QRp/Rectangle-1270-1.png"
+           alt="" 
+           className="mx-auto"
+           />
+           <h2 className="text-2xl pt-[24px] pb-[12px]">Cool feature title</h2>
+           <p className="text-xl mb-[28px] text-gray-700">Learning curve network effects return on investment.</p>
+            <Explorebtn/>
         </div>
-    );
+
+        <div className="">
+            <img src="https://i.ibb.co/LDgjPfNM/Rectangle-1270-2.png"
+           alt="" 
+           className="ml-auto"
+           />
+           <h2 className="text-2xl pt-[24px] pb-[12px] flex">Cool feature title</h2>
+           <p className="text-xl mb-[28px] text-gray-700">Learning curve network effects return on investment.</p>
+            <Explorebtn/>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Services;

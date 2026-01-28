@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Hero from "../assets/Img/Hero.png";
 import Button from "../Component/Button";
+import Services from "./Services";
 
 const About = () => {
   const [active, setActive] = useState("A");
@@ -22,7 +23,7 @@ const About = () => {
           <div className="container mx-auto flex justify-between items-start">
             {/* left side................ */}
 
-            <div className="w-1/2 text-5xl text-white transform translate-y-30 leading-tight">
+            <div className="w-1/2 text-5xl text-white transform translate-y-30 Handshake infographic mass market crowdfunding iteration.">
               <div>Save time by building fast with Boldo Template</div>
 
               <p className="text-lg mt-6">
@@ -92,6 +93,10 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <section>
+                  <Services />
+      </section>
     </div>
   );
 };

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Hero from "../assets/Img/Hero.png";
 import Button from "../Component/Button";
 import Services from "./Services";
+import Customer from "./About/Customer";
+import WhyChooseUs from "./About/WhyChooseUs";
 
 const About = () => {
   const [active, setActive] = useState("A");
@@ -95,7 +97,13 @@ const About = () => {
       </div>
 
       <section>
-                  <Services />
+        <Services />
+      </section>
+      <section>
+        <Customer />
+      </section>
+      <section className="mt-[120px]">
+        <WhyChooseUs />
       </section>
     </div>
   );
